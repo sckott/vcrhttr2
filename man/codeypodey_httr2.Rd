@@ -2,10 +2,10 @@
 % Please edit documentation in R/code_httr2.R
 \name{codeypodey_httr2}
 \alias{codeypodey_httr2}
-\title{Code w/o port}
+\title{Code}
 \usage{
 codeypodey_httr2()
 }
 \description{
-Code w/o port
+Code
 }

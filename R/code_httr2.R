@@ -1,12 +1,12 @@
-#' Code w/ port
+#' Code
 #' 
 #' @export
 #' @importFrom httr2 request req_perform %>%
 code_httr2 <- function() {
-	request("http://localhost:9200") %>% req_perform()
+	request("https://httpbin.org") %>% req_perform()
 }
 
-#' Code w/o port
+#' Code
 #' 
 #' @export
 codeypodey_httr2 <- function() {

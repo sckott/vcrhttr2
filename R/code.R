@@ -1,11 +1,11 @@
-#' Code w/ port
+#' Code
 #' 
 #' @export
 code <- function() {
-	httr::GET("http://localhost:9200")
+	httr::GET("https://httpbin.org/")
 }
 
-#' Code w/o port
+#' Code
 #' 
 #' @export
 codeypodey <- function() {

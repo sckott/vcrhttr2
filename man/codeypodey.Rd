@@ -2,10 +2,10 @@
 % Please edit documentation in R/code.R
 \name{codeypodey}
 \alias{codeypodey}
-\title{Code w/o port}
+\title{Code}
 \usage{
 codeypodey()
 }
 \description{
-Code w/o port
+Code
 }

@@ -15,17 +15,17 @@ http_interactions:
       message: 'Success: (200) OK'
     headers:
       accept-ranges: bytes
-      age: '16126'
+      age: '19684'
       cache-control: public,max-age=0,must-revalidate
       cache-status: '"Netlify Edge"; hit'
       content-encoding: gzip
       content-type: text/html; charset=UTF-8
-      date: Tue, 16 Jan 2024 22:50:14 GMT
+      date: Tue, 16 Jan 2024 23:49:32 GMT
       etag: '"b2eb3ec0ae93f146611fb0ecba4de49a-ssl-df"'
       server: Netlify
       strict-transport-security: max-age=31536000
       vary: Accept-Encoding
-      x-nf-request-id: 01HMA7FNEFR0QQ0MDFJYPGRVP4
+      x-nf-request-id: 01HMAAW7XMQNP6DXRB2WNWE2G5
       content-length: '2692'
     body:
       encoding: ''
@@ -120,5 +120,5 @@ http_interactions:
         rel=\"nofollow\">Minimal Mistakes</a>.</div>\n\n      </footer>\n    </div>\n\n
         \   \n  <script src=\"/assets/js/main.min.js\"></script>\n\n\n\n\n\n\n\n\n\n\n
         \ </body>\n</html>\n"
-  recorded_at: 2024-01-16 22:50:14 GMT
+  recorded_at: 2024-01-16 23:49:32 GMT
   recorded_with: vcr/1.2.2.93, webmockr/0.9.0
