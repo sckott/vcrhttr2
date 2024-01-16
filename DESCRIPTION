@@ -1,0 +1,17 @@
+Package: rrr
+Title: Testing Integeration of httr2 with vcr
+Version: 0.0.0.91
+Authors@R: 
+    person("Scott", "Chamberlain", , "stuff@things.com", role = c("aut", "cre"))
+Description: Testing Integeration of httr2 with vcr.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    httr,
+    httr2
+Suggests: 
+    testthat (>= 3.0.0),
+    vcr (>= 0.6.0)
+Config/testthat/edition: 3

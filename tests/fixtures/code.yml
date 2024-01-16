@@ -1,0 +1,47 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:9200/
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      x-elastic-product: Elasticsearch
+      warning: 299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch
+        built-in security features are not enabled. Without authentication, your cluster
+        could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html
+        to enable security."
+      content-type: application/json; charset=UTF-8
+      content-encoding: gzip
+      content-length: '332'
+    body:
+      encoding: ''
+      file: no
+      string: |
+        {
+          "name" : "Scotts-MBP",
+          "cluster_name" : "elasticsearch",
+          "cluster_uuid" : "tMD-yDR3RnmikPXObzFK_g",
+          "version" : {
+            "number" : "7.15.1",
+            "build_flavor" : "default",
+            "build_type" : "tar",
+            "build_hash" : "83c34f456ae29d60e94d886e455e6a3409bba9ed",
+            "build_date" : "2021-10-07T21:56:19.031608185Z",
+            "build_snapshot" : false,
+            "lucene_version" : "8.9.0",
+            "minimum_wire_compatibility_version" : "6.8.0",
+            "minimum_index_compatibility_version" : "6.0.0-beta1"
+          },
+          "tagline" : "You Know, for Search"
+        }
+  recorded_at: 2024-01-02 19:14:12 GMT
+  recorded_with: vcr/1.2.2.91, webmockr/0.9.0
