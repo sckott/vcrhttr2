@@ -1,6 +1,8 @@
 
 # rrr
 
+[![R-CMD-check](https://github.com/sckott/rrr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sckott/rrr/actions/workflows/R-CMD-check.yaml)
+
 Testing Integeration of httr2 with vcr
 
 ## Installation
