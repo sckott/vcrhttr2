@@ -7,7 +7,7 @@ Description: Testing Integeration of httr2 with vcr.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Imports: 
     httr,
     httr2,
@@ -16,6 +16,6 @@ Suggests:
     vcr (>= 1.2.2.93),
     webmockr (>= 0.9.0)
 Config/testthat/edition: 3
-Remotes:  
+Remotes: 
     ropensci/webmockr@httr2,
     ropensci/vcr@httr2

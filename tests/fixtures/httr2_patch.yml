@@ -1,0 +1,36 @@
+http_interactions:
+- request:
+    method: patch
+    uri: https://www.r-project.org/
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 405
+      message: Method Not Allowed
+    headers:
+      Date: Thu, 11 Jul 2024 18:56:51 GMT
+      Server: Apache
+      Vary: accept-language,accept-charset
+      Accept-Ranges: bytes
+      Transfer-Encoding: chunked
+      Content-Type: text/html; charset=utf-8
+      Content-Language: en
+    body:
+      encoding: ''
+      file: no
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD
+        XHTML 1.0 Strict//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n<head>\n<title>Method
+        not allowed!</title>\n<link rev=\"made\" href=\"mailto:cran-sysadmin@r-project.org\"
+        />\n<style type=\"text/css\"><!--/*--><![CDATA[/*><!--*/ \n    body { color:
+        #000000; background-color: #FFFFFF; }\n    a:link { color: #0000CC; }\n    p,
+        address {margin-left: 3em;}\n    span {font-size: smaller;}\n/*]]>*/--></style>\n</head>\n\n<body>\n<h1>Method
+        not allowed!</h1>\n<p>\n\n\n    The PATCH\n    method is not allowed for the
+        requested URL.\n    \n</p>\n<p>\nIf you think this is a server error, please
+        contact\nthe <a href=\"mailto:cran-sysadmin@r-project.org\">webmaster</a>.\n\n</p>\n\n<h2>Error
+        405</h2>\n<address>\n  <a href=\"/\">www.r-project.org</a><br />\n  <span>Apache</span>\n</address>\n</body>\n</html>\n\n"
+  recorded_at: 2024-07-11 18:56:51 GMT
+  recorded_with: vcr/1.2.2.93, webmockr/0.9.1.91

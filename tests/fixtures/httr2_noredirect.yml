@@ -5,12 +5,25 @@ http_interactions:
     body:
       encoding: ''
       string: ''
-    headers: ~
+    headers: []
   response:
     status:
       status_code: 200
       message: OK
-    headers: ~
+    headers:
+      accept-ranges: bytes
+      age: '10519'
+      cache-control: public,max-age=0,must-revalidate
+      cache-status: '"Netlify Edge"; hit'
+      content-encoding: gzip
+      content-type: text/html; charset=UTF-8
+      date: Thu, 11 Jul 2024 18:56:50 GMT
+      etag: '"77f9a437dcf423943910c9d35895c6aa-ssl-df"'
+      server: Netlify
+      strict-transport-security: max-age=31536000
+      vary: Accept-Encoding
+      x-nf-request-id: 01J2HJFGFJE9RP81GF7AHMZMR6
+      content-length: '2709'
     body:
       encoding: ''
       file: no
@@ -132,5 +145,5 @@ http_interactions:
         LWpla3lsbC10aGVtZS8iIHJlbD0ibm9mb2xsb3ciPk1pbmltYWwgTWlzdGFrZXM8L2E+LjwvZGl2PgoK
         ICAgICAgPC9mb290ZXI+CiAgICA8L2Rpdj4KCiAgICAKICA8c2NyaXB0IHNyYz0iL2Fzc2V0cy9qcy9t
         YWluLm1pbi5qcyI+PC9zY3JpcHQ+CgoKCgoKCgoKCgogIDwvYm9keT4KPC9odG1sPgo=
-  recorded_at: 2024-01-16 23:49:31 GMT
-  recorded_with: vcr/1.2.2.93, webmockr/0.9.0
+  recorded_at: 2024-07-11 18:56:50 GMT
+  recorded_with: vcr/1.2.2.93, webmockr/0.9.1.91
