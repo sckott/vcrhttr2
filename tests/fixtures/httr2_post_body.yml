@@ -11,7 +11,7 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      Date: Thu, 11 Jul 2024 18:56:50 GMT
+      Date: Fri, 12 Jul 2024 15:54:23 GMT
       Server: Apache
       Last-Modified: Fri, 14 Jun 2024 08:10:02 GMT
       ETag: '"1b27-61ad5247107c3-gzip"'
@@ -103,5 +103,5 @@ http_interactions:
         Bootstrap's JavaScript plugins) -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n
         \   <!-- Include all compiled plugins (below), or include individual files
         as needed -->\n    <script src=\"/js/bootstrap.min.js\"></script>\n  </body>\n</html>\n"
-  recorded_at: 2024-07-11 18:56:50 GMT
+  recorded_at: 2024-07-12 15:54:23 GMT
   recorded_with: vcr/1.2.2.93, webmockr/0.9.1.91

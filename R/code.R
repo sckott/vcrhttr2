@@ -1,13 +1,8 @@
-#' Code
+#' Use httr to do a GET request
 #'
 #' @export
-code <- function() {
-  httr::GET("https://httpbin.org/")
-}
-
-#' Code
-#'
-#' @export
-codeypodey <- function() {
-  httr::GET("https://scottchamberlain.info")
+#' @importFrom httr GET
+#' @param some_url (character) a url
+fxn_httr <- function(some_url = "http://httpbin.org/") {
+  httr::GET(some_url)
 }

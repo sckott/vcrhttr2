@@ -1,0 +1,263 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://recology.info/
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      accept-ranges: bytes
+      age: '20244'
+      cache-control: public,max-age=0,must-revalidate
+      cache-status: '"Netlify Edge"; hit'
+      content-encoding: gzip
+      content-type: text/html; charset=UTF-8
+      date: Fri, 12 Jul 2024 15:54:22 GMT
+      etag: '"562a2f324df7e5848bfc502d9b1270dd-ssl-df"'
+      server: Netlify
+      strict-transport-security: max-age=31536000
+      vary: Accept-Encoding
+      x-nf-request-id: 01J2KTE4KSSXPSVG0FTHZTPT4Y
+      content-length: '5752'
+    body:
+      encoding: ''
+      file: no
+      string: "<!DOCTYPE html>\n<html lang=\"en\" dir=\"auto\">\n\n<head>\n\t<meta
+        name=\"generator\" content=\"Hugo 0.123.8\"><meta charset=\"utf-8\">\n<meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n<meta
+        name=\"robots\" content=\"index, follow\">\n<title>Recology</title>\n\n<meta
+        name=\"description\" content=\"\">\n<meta name=\"author\" content=\"\">\n<link
+        rel=\"canonical\" href=\"https://recology.info/\">\n<link crossorigin=\"anonymous\"
+        href=\"/assets/css/stylesheet.f4cda22486791d430ef692108ba33a982c3c552eca57e99456bb55aa4bd22568.css\"
+        integrity=\"sha256-9M2iJIZ5HUMO9pIQi6M6mCw8VS7KV&#43;mUVrtVqkvSJWg=\" rel=\"preload
+        stylesheet\" as=\"style\">\n<link rel=\"icon\" href=\"https://recology.info/favicon.ico\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://recology.info/favicon-16x16.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://recology.info/favicon-32x32.png\">\n<link
+        rel=\"apple-touch-icon\" href=\"https://recology.info/apple-touch-icon.png\">\n<link
+        rel=\"mask-icon\" href=\"https://recology.info/safari-pinned-tab.svg\">\n<meta
+        name=\"theme-color\" content=\"#2e2e33\">\n<meta name=\"msapplication-TileColor\"
+        content=\"#2e2e33\">\n<link rel=\"alternate\" type=\"application/rss+xml\"
+        href=\"https://recology.info/index.xml\">\n<link rel=\"alternate\" type=\"application/json\"
+        href=\"https://recology.info/index.json\">\n<link rel=\"alternate\" hreflang=\"en\"
+        href=\"https://recology.info/\">\n<noscript>\n    <style>\n        #theme-toggle,\n
+        \       .top-link {\n            display: none;\n        }\n\n    </style>\n
+        \   <style>\n        @media (prefers-color-scheme: dark) {\n            :root
+        {\n                --theme: rgb(29, 30, 32);\n                --entry: rgb(46,
+        46, 51);\n                --primary: rgb(218, 218, 219);\n                --secondary:
+        rgb(155, 156, 157);\n                --tertiary: rgb(65, 66, 68);\n                --content:
+        rgb(196, 196, 197);\n                --code-block-bg: rgb(46, 46, 51);\n                --code-bg:
+        rgb(55, 56, 62);\n                --border: rgb(51, 51, 51);\n            }\n\n
+        \           .list {\n                background: var(--theme);\n            }\n\n
+        \           .list:not(.dark)::-webkit-scrollbar-track {\n                background:
+        0 0;\n            }\n\n            .list:not(.dark)::-webkit-scrollbar-thumb
+        {\n                border-color: var(--theme);\n            }\n        }\n\n
+        \   </style>\n</noscript><meta property=\"og:title\" content=\"Recology\"
+        />\n<meta property=\"og:description\" content=\"\" />\n<meta property=\"og:type\"
+        content=\"website\" />\n<meta property=\"og:url\" content=\"https://recology.info/\"
+        />\n\n<meta name=\"twitter:card\" content=\"summary\"/>\n<meta name=\"twitter:title\"
+        content=\"Recology\"/>\n<meta name=\"twitter:description\" content=\"\"/>\n\n<script
+        type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n
+        \ \"@type\": \"Organization\",\n  \"name\": \"Recology\",\n  \"url\": \"https://recology.info/\",\n
+        \ \"description\": \"\",\n  \"thumbnailUrl\": \"https://recology.info/favicon.ico\",\n
+        \ \"sameAs\": [\n      \n  ]\n}\n</script>\n</head>\n\n<body class=\"list\"
+        id=\"top\">\n<script>\n    if (localStorage.getItem(\"pref-theme\") === \"dark\")
+        {\n        document.body.classList.add('dark');\n    } else if (localStorage.getItem(\"pref-theme\")
+        === \"light\") {\n        document.body.classList.remove('dark')\n    } else
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {\n        document.body.classList.add('dark');\n
+        \   }\n\n</script>\n\n<header class=\"header\">\n    <nav class=\"nav\">\n
+        \       <div class=\"logo\">\n            <a href=\"https://recology.info/\"
+        accesskey=\"h\" title=\"Recology (Alt + H)\">Recology</a>\n            <div
+        class=\"logo-switches\">\n                <button id=\"theme-toggle\" accesskey=\"t\"
+        title=\"(Alt + T)\">\n                    <svg id=\"moon\" xmlns=\"http://www.w3.org/2000/svg\"
+        width=\"24\" height=\"18\" viewBox=\"0 0 24 24\"\n                        fill=\"none\"
+        stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"\n                        stroke-linejoin=\"round\">\n
+        \                       <path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21
+        12.79z\"></path>\n                    </svg>\n                    <svg id=\"sun\"
+        xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"18\" viewBox=\"0
+        0 24 24\"\n                        fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"
+        stroke-linecap=\"round\"\n                        stroke-linejoin=\"round\">\n
+        \                       <circle cx=\"12\" cy=\"12\" r=\"5\"></circle>\n                        <line
+        x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"></line>\n                        <line
+        x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"></line>\n                        <line
+        x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"></line>\n                        <line
+        x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"></line>\n                        <line
+        x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"></line>\n                        <line
+        x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"></line>\n                        <line
+        x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"></line>\n                        <line
+        x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"></line>\n                    </svg>\n
+        \               </button>\n            </div>\n        </div>\n        <ul
+        id=\"menu\">\n            <li>\n                <a href=\"https://recology.info/\"
+        title=\"Home\">\n                    <span class=\"active\">Home</span>\n
+        \               </a>\n            </li>\n            <li>\n                <a
+        href=\"https://recology.info/about\" title=\"About\">\n                    <span>About</span>\n
+        \               </a>\n            </li>\n            <li>\n                <a
+        href=\"https://recology.info/archives\" title=\"Archive\">\n                    <span>Archive</span>\n
+        \               </a>\n            </li>\n            <li>\n                <a
+        href=\"https://recology.info/search\" title=\"Search (Alt &#43; /)\" accesskey=/>\n
+        \                   <span>Search</span>\n                </a>\n            </li>\n
+        \           <li>\n                <a href=\"https://recology.info/index.xml\"
+        title=\"RSS\">\n                    <span>RSS</span>\n                </a>\n
+        \           </li>\n        </ul>\n    </nav>\n</header>\n<main class=\"main\">
+        \n\n<article class=\"first-entry\"> \n  <header class=\"entry-header\">\n
+        \   <h2 class=\"entry-hint-parent\">Refactoring notes\n    </h2>\n  </header>\n
+        \ <div class=\"entry-content\">\n    <p>I worked on a refactor of an R package
+        at work the other day. Here’s some notes about that after doing the work.
+        This IS NOT a best practices post - it’s just a collection of thoughts.\nFor
+        context, the package is an API client.\nIt made sense to break the work for
+        any given exported function into the following components, as applicable depending
+        on the endpoint being handled (some endpoints needed just a few lines of code,
+        so those funtions were left unchanged):...</p>\n  </div>\n  <footer class=\"entry-footer\"><span
+        title='2024-03-20 15:24:38 -0700 -0700'>March 20, 2024</span>&nbsp;·&nbsp;3
+        min&nbsp;·&nbsp;Scott Chamberlain</footer>\n  <a class=\"entry-link\" aria-label=\"post
+        link to Refactoring notes\" href=\"https://recology.info/2024/03/refactoring-notes/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Moved
+        to Hugo\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n    <p>This
+        blog is now using Hugo.\nImportant - if you subscribe to the RSS for this
+        blog you likely have to delete/remove the old one and add the new RSS link.
+        It is:\nhttps://recology.info/index.xml</p>\n  </div>\n  <footer class=\"entry-footer\"><span
+        title='2024-03-20 15:22:11 -0700 -0700'>March 20, 2024</span>&nbsp;·&nbsp;1
+        min&nbsp;·&nbsp;Scott Chamberlain</footer>\n  <a class=\"entry-link\" aria-label=\"post
+        link to Moved to Hugo\" href=\"https://recology.info/2024/03/move-to-hugo/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Shiny
+        file inputs\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n    <p>I
+        wrote the other day about overcoming an issue with Shiny.\nAnother issue I
+        ran into concurrently was about file inputs. The issue was that file inputs
+        (i.e., shiny::fileInput) was difficult to clear. That is, after a user uploads
+        a file, it was easy to get some of the various parts cleared/cleaned up, but
+        not others:\n(Not Easy) The UI components of fileInput (the text of the file
+        name, the loading display) (Not Easy) The data behind the fileInput handler
+        (Easy) Displaying some feedback in the UI after handling file input Load libraries...</p>\n
+        \ </div>\n  <footer class=\"entry-footer\"><span title='2024-03-08 00:00:00
+        +0000 UTC'>March 8, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Scott Chamberlain</footer>\n
+        \ <a class=\"entry-link\" aria-label=\"post link to Shiny file inputs\" href=\"https://recology.info/2024/03/shiny-file-inputs/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Shiny
+        button weirdness\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n
+        \   <p>I’ve been working on Shiny app at work for the past few months. One
+        of the many frustrating things about Shiny lately has been around buttons.
+        Well, it wasn’t really about buttons, but that’s where it started.\nLoad libraries\nlibrary(shiny)
+        library(bslib) library(crul) Helper function, returned a random UUID from
+        an httpbin server\nhttpbin_uuid &lt;- function(...) { con &lt;- crul::HttpClient$new(&#34;https://hb.opencpu.org&#34;)
+        res &lt;- con$get(&#34;uuid&#34;) jsonlite::fromJSON(res$parse(&#34;UTF-8&#34;))$uuid
+        } A bslib ui component\nui &lt;- page_sidebar( title = &#34;My dashboard&#34;,
+        sidebar = list( actionButton(&#34;submit&#34;, &#34;Submit&#34;), actionButton(&#34;reset&#34;,
+        &#34;Reset&#34;) ), textInput(inputId = &#34;name&#34;, &#34;Your name&#34;),
+        textOutput(&#34;uuid&#34;) ) Here’s the server part that was giving me trouble....</p>\n
+        \ </div>\n  <footer class=\"entry-footer\"><span title='2024-03-04 00:00:00
+        +0000 UTC'>March 4, 2024</span>&nbsp;·&nbsp;2 min</footer>\n  <a class=\"entry-link\"
+        aria-label=\"post link to Shiny button weirdness\" href=\"https://recology.info/2024/03/shiny-events/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Avoiding
+        the word footgun(s)\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n
+        \   <p>I recently opened an issue in a repository for a package I’m working
+        on to think about potential footguns and how to avoid them. That word “footguns”
+        got me thinking; does using phrases/metaphors for a certain topic in a way
+        lend credibility to it? For example, we use a lot of sports metaphors in the
+        US, especially baseball (swing for the fences, anything related to bases,
+        curveballs, heavy hitter, etc.), and that says something about the place of
+        baseball in our culture....</p>\n  </div>\n  <footer class=\"entry-footer\"><span
+        title='2024-03-03 00:00:00 +0000 UTC'>March 3, 2024</span>&nbsp;·&nbsp;2 min</footer>\n
+        \ <a class=\"entry-link\" aria-label=\"post link to Avoiding the word footgun(s)\"
+        href=\"https://recology.info/2024/03/foot-guns/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Weird
+        thoughts\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n    <p>My
+        parents just found this email they had printed out from me from May 19, 2006,
+        when I was 26. I chatted about some family stuff, then had this rambling string
+        of weird thoughts below. I thought others might appreciate a good cringe -
+        or cringy laugh - at my expense. It’s especially funny because I’m most def
+        an atheist. I don’t know, those Tucson sunsets really are transformative.\n…
+        Actually, some deep thoughts:...</p>\n  </div>\n  <footer class=\"entry-footer\"><span
+        title='2023-10-12 00:00:00 +0000 UTC'>October 12, 2023</span>&nbsp;·&nbsp;2
+        min&nbsp;·&nbsp;Scott Chamberlain</footer>\n  <a class=\"entry-link\" aria-label=\"post
+        link to Weird thoughts\" href=\"https://recology.info/2023/10/weird-thoughts/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Job
+        searching notes\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n
+        \   <p>notes to self for next job hunt (some of which may be generally useful):\ndon’t
+        apply to general tech companies anymore for many reasons. heard back from
+        very very few but that may be b/c I don’t know many people at general tech
+        companies never been able to get through interviews; they’re presumably looking
+        for computer science grads (not me) most of their missions are probably not
+        stuff I’d be happy about at the end of the day....</p>\n  </div>\n  <footer
+        class=\"entry-footer\"><span title='2023-10-09 00:00:00 +0000 UTC'>October
+        9, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Scott Chamberlain</footer>\n
+        \ <a class=\"entry-link\" aria-label=\"post link to Job searching notes\"
+        href=\"https://recology.info/2023/10/job-searching/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Working
+        at Fred Hutchinson Cancer Center\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n
+        \   <p>Soooo, my last job at Deck was amazing. I loved it. I was doing data
+        engineer stuff there, mostly maintaining infrastructure for data pipelines.
+        Everyone was great and the mission was amazing: helping Democrats win. Yet
+        the company was shut down about a month ago, sending me on another job search,
+        the 3rd since early/mid 2021.\nI’m super thrilled to have landed a job (Software
+        and Reproducibility Software Developer) at the Fred Hutch Data Science Lab
+        (DASL), headed up by Jeff Leek, working with Sean Kross, Amy Paguirigan, and
+        Monica Gerber, among many other amazing folks....</p>\n  </div>\n  <footer
+        class=\"entry-footer\"><span title='2023-10-06 00:00:00 +0000 UTC'>October
+        6, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Scott Chamberlain</footer>\n
+        \ <a class=\"entry-link\" aria-label=\"post link to Working at Fred Hutchinson
+        Cancer Center\" href=\"https://recology.info/2023/10/fred-hutch/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">Python,
+        ast, and redbaron\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n
+        \   <p>I recently had a use case at work where I wanted to check that file
+        paths given in a Python script actually existed. These paths were in various
+        GitHub repositories, so all I had to do was pull out the paths and check if
+        they exist on GitHub.\nThere were a few catches though.\nFirst, I couldn’t
+        simply get any string out of each Python script - they needed to be strings
+        specficied by a specific function parameter, and match a regex (e....</p>\n
+        \ </div>\n  <footer class=\"entry-footer\"><span title='2023-04-18 00:00:00
+        +0000 UTC'>April 18, 2023</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Scott Chamberlain</footer>\n
+        \ <a class=\"entry-link\" aria-label=\"post link to Python, ast, and redbaron\"
+        href=\"https://recology.info/2023/04/python-ast/\"></a>\n</article>\n\n<article
+        class=\"post-entry\"> \n  <header class=\"entry-header\">\n    <h2 class=\"entry-hint-parent\">CRAN
+        Checks API and Badges\n    </h2>\n  </header>\n  <div class=\"entry-content\">\n
+        \   <p>TL;DR In 6 months (end of November 2022) the CRAN Checks API https://cranchecks.info/
+        will be gone You can still get badges at https://badges.cranchecks.info You
+        can use the new badges like: [![cran checks](https://badges.cranchecks.info/worst/dplyr.svg)](https://cran.r-project.org/web/checks/check_results_dplyr.html)
+        Find more details at https://github.com/sckott/cchecksbadges\nSunsetting the
+        CRAN Checks API If you contribute an R package to CRAN, you may use badges
+        from the CRAN checks API at https://cranchecks.info/. The CRAN Checks API
+        has been operating since about September 2017 (I think)....</p>\n  </div>\n
+        \ <footer class=\"entry-footer\"><span title='2022-06-02 00:00:00 +0000 UTC'>June
+        2, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Scott Chamberlain</footer>\n
+        \ <a class=\"entry-link\" aria-label=\"post link to CRAN Checks API and Badges\"
+        href=\"https://recology.info/2022/06/cran-checks-badges/\"></a>\n</article>\n<footer
+        class=\"page-footer\">\n  <nav class=\"pagination\">\n    <a class=\"next\"
+        href=\"https://recology.info/page/2/\">Next&nbsp;&nbsp;»\n    </a>\n  </nav>\n</footer>\n
+        \   </main>\n    \n<footer class=\"footer\">\n    <span>&copy; 2024 <a href=\"https://recology.info/\">Recology</a></span>\n
+        \   <span>\n        Powered by\n        <a href=\"https://gohugo.io/\" rel=\"noopener
+        noreferrer\" target=\"_blank\">Hugo</a> &\n        <a href=\"https://github.com/adityatelange/hugo-PaperMod/\"
+        rel=\"noopener\" target=\"_blank\">PaperMod</a>\n    </span>\n</footer>\n<a
+        href=\"#top\" aria-label=\"go to top\" title=\"Go to Top (Alt + G)\" class=\"top-link\"
+        id=\"top-link\" accesskey=\"g\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 12 6\" fill=\"currentColor\">\n        <path d=\"M12 6H0l6-6z\"
+        />\n    </svg>\n</a>\n\n<script>\n    let menu = document.getElementById('menu')\n
+        \   if (menu) {\n        menu.scrollLeft = localStorage.getItem(\"menu-scroll-position\");\n
+        \       menu.onscroll = function () {\n            localStorage.setItem(\"menu-scroll-position\",
+        menu.scrollLeft);\n        }\n    }\n\n    document.querySelectorAll('a[href^=\"#\"]').forEach(anchor
+        => {\n        anchor.addEventListener(\"click\", function (e) {\n            e.preventDefault();\n
+        \           var id = this.getAttribute(\"href\").substr(1);\n            if
+        (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {\n                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({\n
+        \                   behavior: \"smooth\"\n                });\n            }
+        else {\n                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();\n
+        \           }\n            if (id === \"top\") {\n                history.replaceState(null,
+        null, \" \");\n            } else {\n                history.pushState(null,
+        null, `#${id}`);\n            }\n        });\n    });\n\n</script>\n<script>\n
+        \   var mybutton = document.getElementById(\"top-link\");\n    window.onscroll
+        = function () {\n        if (document.body.scrollTop > 800 || document.documentElement.scrollTop
+        > 800) {\n            mybutton.style.visibility = \"visible\";\n            mybutton.style.opacity
+        = \"1\";\n        } else {\n            mybutton.style.visibility = \"hidden\";\n
+        \           mybutton.style.opacity = \"0\";\n        }\n    };\n\n</script>\n<script>\n
+        \   document.getElementById(\"theme-toggle\").addEventListener(\"click\",
+        () => {\n        if (document.body.className.includes(\"dark\")) {\n            document.body.classList.remove('dark');\n
+        \           localStorage.setItem(\"pref-theme\", 'light');\n        } else
+        {\n            document.body.classList.add('dark');\n            localStorage.setItem(\"pref-theme\",
+        'dark');\n        }\n    })\n\n</script>\n</body>\n\n</html>\n"
+  recorded_at: 2024-07-12 15:54:22 GMT
+  recorded_with: vcr/1.2.2.93, webmockr/0.9.1.91

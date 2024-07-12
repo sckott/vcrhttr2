@@ -11,7 +11,7 @@ http_interactions:
       status_code: 405
       message: Method Not Allowed
     headers:
-      Date: Thu, 11 Jul 2024 18:56:51 GMT
+      Date: Fri, 12 Jul 2024 15:54:23 GMT
       Server: Apache
       Vary: accept-language,accept-charset
       Accept-Ranges: bytes
@@ -32,5 +32,5 @@ http_interactions:
         requested URL.\n    \n</p>\n<p>\nIf you think this is a server error, please
         contact\nthe <a href=\"mailto:cran-sysadmin@r-project.org\">webmaster</a>.\n\n</p>\n\n<h2>Error
         405</h2>\n<address>\n  <a href=\"/\">www.r-project.org</a><br />\n  <span>Apache</span>\n</address>\n</body>\n</html>\n\n"
-  recorded_at: 2024-07-11 18:56:51 GMT
+  recorded_at: 2024-07-12 15:54:23 GMT
   recorded_with: vcr/1.2.2.93, webmockr/0.9.1.91

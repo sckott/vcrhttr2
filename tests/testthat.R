@@ -1,4 +1,4 @@
 library(testthat)
-library(rrr)
+library(vcrhttr2)
 
-test_check("rrr")
+test_check("vcrhttr2")
