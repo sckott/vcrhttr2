@@ -1,6 +1,6 @@
 Package: vcrhttr2
 Title: Testing Integeration of httr2 with vcr
-Version: 0.0.0.91
+Version: 0.1.0
 Authors@R: 
     person("Scott", "Chamberlain", , "stuff@things.com", role = c("aut", "cre"))
 Description: Testing Integeration of httr2 with vcr.
@@ -13,9 +13,6 @@ Imports:
     httr2,
 Suggests: 
     testthat (>= 3.0.0),
-    vcr (>= 1.2.2.93),
-    webmockr (>= 0.9.0)
+    vcr (>= 1.6.0),
+    webmockr (>= 1.0.0)
 Config/testthat/edition: 3
-Remotes: 
-    ropensci/webmockr@httr2,
-    ropensci/vcr@httr2
